@@ -1,0 +1,8 @@
+﻿  Project_Chapter02.cpp
+c:\users\ms\desktop\professional c++\project_chapter02\project_chapter02.cpp(64): error C2280: 'SpreadsheetCell &SpreadsheetCell::operator =(const SpreadsheetCell &)': 삭제된 함수를 참조하려고 합니다.
+  c:\users\ms\desktop\professional c++\project_chapter02\spreadsheetcell.h(29): note: 'SpreadsheetCell::operator =' 선언을 참조하십시오.
+  c:\users\ms\desktop\professional c++\project_chapter02\spreadsheetcell.h(29): note: 'SpreadsheetCell &SpreadsheetCell::operator =(const SpreadsheetCell &)' 함수가 명시적으로 삭제되었습니다.
+  SpreadsheetCell.cpp
+c:\users\ms\desktop\professional c++\project_chapter02\spreadsheetcell.cpp(70): error C2084: 'SpreadsheetCell &SpreadsheetCell::operator =(const SpreadsheetCell &)' 함수에 이미 본문이 있습니다.
+  c:\users\ms\desktop\professional c++\project_chapter02\spreadsheetcell.h(29): note: '='의 이전 정의를 참조하십시오.
+  코드를 생성하고 있습니다...
